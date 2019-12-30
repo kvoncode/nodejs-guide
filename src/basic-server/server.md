@@ -1,5 +1,11 @@
 # Basic server
 
+Run command
+
+```
+nodejs ./src/basic-server/app.js
+```
+
 You can create server in **Node.js** using `http` module
 
 `const http = require('http')`
@@ -21,3 +27,5 @@ In order to start listening we should use `server.listen` function
 ```
 server.listen(port, hostname, callback)
 ```
+
+
